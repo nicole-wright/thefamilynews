@@ -1,0 +1,3 @@
+@Imports FamilyNews.Areas.HelpPage.ModelDescriptions
+@ModelType SimpleTypeModelDescription
+@Model.Documentation
