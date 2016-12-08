@@ -77,9 +77,9 @@ Partial Public Class Startup
         app.UseOAuthBearerTokens(OAuthOptions)
 
         ' Uncomment the following lines to enable logging in with third party login providers
-        app.UseMicrosoftAccountAuthentication(
-            clientId:="850e5eab-9013-4427-9ea7-df868b56eb3d",
-            clientSecret:="XsGOCVfzDzJbAT8gYdFKohR")
+        'app.UseMicrosoftAccountAuthentication(
+        '    clientId:="850e5eab-9013-4427-9ea7-df868b56eb3d",
+        '    clientSecret:="XsGOCVfzDzJbAT8gYdFKohR")
 
         app.UseTwitterAuthentication(
            consumerKey:="WT4I2OpeS9zVW8aVvb0AHBM0i",
@@ -90,7 +90,7 @@ Partial Public Class Startup
            appSecret:="9e0fd98acdfd3987a7ea78a35afd6843")
 
         app.UseGoogleAuthentication(New GoogleOAuth2AuthenticationOptions() With {
-           .ClientId = "961157840282-ialleshvrh8mvl55frkc24d9n7bgpf5n.apps.googleusercontent.com",
-           .ClientSecret = "rIiCVqxT1IUoCMsZI5RAfzQO"})
+           .ClientId = "789523000728-sqs3vhsjnhfnb4am0uer1i7eogvkpfco.apps.googleusercontent.com",
+           .ClientSecret = "xwVy0ENe0czne8nGr13ttWvm"})
     End Sub
 End Class
