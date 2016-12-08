@@ -7,7 +7,6 @@ Imports Microsoft.Owin.Security.DataProtection
 Imports Microsoft.Owin.Security.Google
 Imports Microsoft.Owin.Security.OAuth
 Imports Owin
-Imports Microsoft.Extensions.Configuration
 
 Partial Public Class Startup
     Private Shared _oAuthOptions As OAuthAuthorizationServerOptions
