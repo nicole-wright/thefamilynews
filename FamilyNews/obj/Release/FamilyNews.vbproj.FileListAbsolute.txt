@@ -102,3 +102,4 @@ C:\Users\nicol_000\Desktop\GitHub\thefamilynews\FamilyNews\obj\Release\FamilyNew
 C:\Users\nicol_000\Desktop\GitHub\thefamilynews\FamilyNews\obj\Release\FamilyNews.dll
 C:\Users\nicol_000\Desktop\GitHub\thefamilynews\FamilyNews\obj\Release\FamilyNews.xml
 C:\Users\nicol_000\Desktop\GitHub\thefamilynews\FamilyNews\obj\Release\FamilyNews.pdb
+C:\Users\nicol_000\Desktop\GitHub\thefamilynews\FamilyNews\obj\Release\FamilyNews.vbprojResolveAssemblyReference.cache
