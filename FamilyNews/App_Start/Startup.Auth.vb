@@ -85,9 +85,9 @@ Partial Public Class Startup
         '   consumerKey:="WT4I2OpeS9zVW8aVvb0AHBM0i",
         '   consumerSecret:="ucgcXZPtGXQQShwhIOkCfciq344YJK1ddnx3tP2mfpqjN0Bn9c")
 
-        app.UseFacebookAuthentication(
-           appId:="166392690503142",
-           appSecret:="9e0fd98acdfd3987a7ea78a35afd6843")
+        'app.UseFacebookAuthentication(
+        '   appId:="166392690503142",
+        '   appSecret:="9e0fd98acdfd3987a7ea78a35afd6843")
 
         'app.UseGoogleAuthentication(New GoogleOAuth2AuthenticationOptions() With {
         '   .ClientId = "789523000728-sqs3vhsjnhfnb4am0uer1i7eogvkpfco.apps.googleusercontent.com",
