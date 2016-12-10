@@ -79,7 +79,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
-<body data-default-background-img="/assets/images/other_images/bg5.jpg" data-overlay="true" data-overlay-opacity="0.35">
+<body data-default-background-img="/assets/images/other_images/bg5.jpg" data-overlay="true" data-overlay-opacity="0.35">    
     @RenderBody()
     @RenderSection("SPAViews", required:=False)
     <!-- Modal -->

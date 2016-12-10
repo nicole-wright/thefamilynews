@@ -2,6 +2,21 @@
 @Code
     ViewBag.Title = "Change Password"
 End Code
+<div class="navbar navbar-fixed-top visible-lg">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            @Html.ActionLink("The Family News", "Index", "Home", New With {.area = ""}, New With {.class = "navbar-brand"})
+        </div>
+        <div class="navbar-collapse collapse">
+            @Html.Partial("_LoginPartial")
+        </div>
+    </div>
+</div>
 <div class="col-sm-12 col-md-5" style="margin:0 auto;float:none">
     <h2>@ViewBag.Title.</h2>
 
