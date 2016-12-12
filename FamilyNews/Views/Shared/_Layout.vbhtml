@@ -66,7 +66,8 @@
     <!-- intro animations -->
     <link href="/assets/js/wow/animate.css" rel="stylesheet">
     <!-- font awesome -->
-    <link href="/assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    @*<link href="/assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">*@
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- lightbox -->
     <link href="/assets/js/lightbox/css/lightbox.css" rel="stylesheet">
     <!-- styles for this template -->
@@ -95,7 +96,6 @@
     </div><!-- .modal -->
     <!-- Javascripts
     ================================================== -->
-    @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required:=False)
     <!-- Jquery and Bootstrap JS -->
